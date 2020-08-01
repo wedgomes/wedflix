@@ -12,7 +12,7 @@ function Footer() {
         Orgulhosamente criado por
         {' '}
         <a href="https://github.com/wedgomes">
-          Wédson Gomes
+          Wédson Rodolfo Lopes Gomes
         </a>
       </p>
     </FooterBase>
