@@ -19,6 +19,7 @@ function CadastroCategoria(){
                             console.log('[nomeDaCategoria]', nomeDaCategoria);
                             console.log('[infosDoEvento.target.value]', infosDoEvento.target.value);
                             setNomeDaCategoria(infosDoEvento.target.value);
+                        
                         }}
                     />   
                 </label>
