@@ -3,21 +3,28 @@ import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 
 function CadastroCategoria(){
+    const [categorias, setNovaCategorias] =useState(['Teste']);
     const [nomeDaCategoria, setNomeDaCategoria] = useState('Valor Inicial');
 
     return(
         <PageDefault>
             <h1>Cadastro de Categoria: {nomeDaCategoria} </h1>
 
-            <form>
+            <form onSubmit={function handleSubmit(infosDoEvento){
+                infosDoEvento.preventDefault();
+                setNovaCategorias([
+                    ...categorias,
+                    nomeDaCategoria
+                ]);
+                
+            }}>
+
                 <label>
                     Nome da Categoria:
                     <input 
                         type="text"
                         value={nomeDaCategoria}
                         onChange={function funcaoHandlerQueOErroPediu(infosDoEvento) {
-                            console.log('[nomeDaCategoria]', nomeDaCategoria);
-                            console.log('[infosDoEvento.target.value]', infosDoEvento.target.value);
                             setNomeDaCategoria(infosDoEvento.target.value);
                         
                         }}
@@ -28,6 +35,20 @@ function CadastroCategoria(){
                     Cadastrar
                 </button>
             </form>
+
+
+
+
+            <ul>
+               {categorias.map((categoria, indice) => {
+                   return (
+                    <li key={`${categoria}${indice}`}>
+                        {categoria}
+                    </li>
+                )
+               })
+              }
+            </ul>
 
             <Link to="/">
                 Ir para home
