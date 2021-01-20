@@ -2,11 +2,11 @@
   "categorias": [
     {
       "titulo": "Ação",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "link": "",
       "cor": "#5c1919",
       "link_extra": {
         "text": "",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "url": ""
       },
       "videos": [
         {
@@ -14,28 +14,28 @@
           "url": "https://www.youtube.com/watch?v=KUlIaSTYbuo"
         },
         {
-          "titulo": "Baby Driver",
-          "url": "https://www.youtube.com/watch?v=qJg612aCi-M"
+          "titulo": "Anjos da Lei",
+          "url": "https://www.youtube.com/watch?v=pF3OLj-3mWA"
         },
         {
-          "titulo": "O Exterminador do Futuro",
-          "url": "https://www.youtube.com/watch?v=_zQDqSFn_hI"
+          "titulo": "João e Maria - Caçadores de Bruxa",
+          "url": "https://www.youtube.com/watch?v=9Km_LOXKZGs"
         },
         {
           "titulo": "Missão Impossivel",
           "url": "https://www.youtube.com/watch?v=_23tlvDZIXU"
         },
         {
-          "titulo": "007 - Operação Skyfall",
-          "url": "https://www.youtube.com/watch?v=K4duzvx-IZs"
+          "titulo": "Johny Rick",
+          "url": "https://www.youtube.com/watch?v=asxy04-wtLg"
         }, 
         {
           "titulo": "Velozes e Furiosos - Desafio em Tokyo",
           "url": "https://www.youtube.com/watch?v=_XEtktfBR4c"
         },
         {
-          "titulo": "Velozes e Furiosos",
-          "url": "https://www.youtube.com/watch?v=nJKpwz3oGbU&t=2s"
+          "titulo": "Velozes e Furiosos 7",
+          "url": "https://www.youtube.com/watch?v=xUnWaPX6LKg"
         },
         
         {
